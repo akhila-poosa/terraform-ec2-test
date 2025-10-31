@@ -7,11 +7,11 @@ module "catalogue" {
     
 }
 
-output "pub_ip" {
+output "public_ip" {
     value = module.catalogue.public_ip
 }
 
-output "priv_ip" {
+output "private_ip" {
     value = module.catalogue.private_ip
 }
 
